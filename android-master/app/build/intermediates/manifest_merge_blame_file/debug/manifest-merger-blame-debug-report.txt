@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.heartcare"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:6:5-79
+11-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:7:5-67
+12-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:7:22-64
+13
+14    <uses-feature android:name="android.hardware.blueooth" />
+14-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:9:5-62
+14-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:9:19-59
+15
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:11:5-66
+16-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:11:22-63
+17    <uses-permission android:name="android.permission.BLUETOOTH" />
+17-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:12:5-68
+17-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:12:22-65
+18    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+18-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:13:5-74
+18-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:13:22-71
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:14:5-81
+19-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:14:22-78
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" /> -->
+20-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:15:5-79
+20-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:15:22-76
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:16:5-81
+21-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:16:22-78
+22
+23    <application
+23-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:18:5-65:19
+24        android:allowBackup="false"
+24-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:19:9-36
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/mon_icone"
+27-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:20:9-41
+28        android:label="@string/app_name"
+28-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:21:9-41
+29        android:networkSecurityConfig="@xml/network_security_config"
+29-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:22:9-69
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:23:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:24:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:25:9-40
+34        <activity
+34-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:26:9-27:66
+35            android:name="com.example.heartcare.NewPassword"
+35-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:26:19-46
+36            android:theme="@style/AppTheme.NoActionBar" />
+36-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:27:21-64
+37        <activity
+37-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:28:9-31:55
+38            android:name="com.example.heartcare.HomePage"
+38-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:29:13-37
+39            android:theme="@style/AppTheme.NoActionBar"
+39-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:30:13-56
+40            android:windowSoftInputMode="adjustPan" />
+40-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:31:13-52
+41        <activity
+41-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:32:9-34:61
+42            android:name="com.example.heartcare.Chart1"
+42-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:33:13-35
+43            android:label="Courbe de fréquence cardiaque" />
+43-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:34:13-58
+44        <activity
+44-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:35:9-44:20
+45            android:name="com.example.heartcare.choice_screen"
+45-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:36:13-42
+46            android:label="@string/title_activity_choice_screen"
+46-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:37:13-65
+47            android:parentActivityName="com.example.heartcare.MainActivity"
+47-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:38:13-55
+48            android:theme="@style/AppTheme.NoActionBar"
+48-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:39:13-56
+49            android:windowSoftInputMode="adjustPan" >
+49-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:40:13-52
+50            <meta-data
+50-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:41:13-43:49
+51                android:name="android.support.PARENT_ACTIVITY"
+51-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:42:17-63
+52                android:value=".MainActivity" />
+52-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:43:17-46
+53        </activity>
+54        <activity
+54-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:45:9-55:20
+55            android:name="com.example.heartcare.FullscreenActivity"
+55-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:46:13-47
+56            android:configChanges="orientation|keyboardHidden|screenSize"
+56-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:47:13-74
+57            android:label="HeartCare"
+57-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:48:13-38
+58            android:theme="@style/AppTheme.NoActionBar" >
+58-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:49:13-56
+59            <intent-filter>
+59-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:50:13-54:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:51:17-69
+60-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:51:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:53:17-77
+62-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:53:27-74
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:56:9-60:55
+66            android:name="com.example.heartcare.MainActivity"
+66-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:57:13-41
+67            android:label="@string/app_name"
+67-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:58:13-45
+68            android:theme="@style/AppTheme.NoActionBar"
+68-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:59:13-56
+69            android:windowSoftInputMode="adjustPan" />
+69-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:60:13-52
+70
+71        <service
+71-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:62:9-64:38
+72            android:name="com.example.heartcare.BluetoothLeService"
+72-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:63:13-47
+73            android:enabled="true" />
+73-->C:\Users\Acer\AndroidStudioProjects\HeartCare\app\src\main\AndroidManifest.xml:64:13-35
+74    </application>
+75
+76</manifest>

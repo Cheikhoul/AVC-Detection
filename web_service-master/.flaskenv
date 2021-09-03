@@ -1,0 +1,5 @@
+FLASK_APP=applic.py
+FLASK_ENV=development
+FLASK_RUN_PORT=62000
+FLASK_RUN_HOST = 0.0.0.0
+FLASK_DEBUG = True

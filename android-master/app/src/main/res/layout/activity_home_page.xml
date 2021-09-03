@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFEEE"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_page_activity"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Déverrouillez l'application"
+        android:textStyle="bold"
+        android:textColor="#E50707"
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"
+        ></TextView>
+
+
+    <EditText
+        android:id="@+id/mdp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="50dp"
+        android:hint="@string/mdp"
+        android:inputType="textPassword"
+        android:textSize="25sp"></EditText>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mdp"
+        android:layout_marginTop="55dp">
+
+        <Button
+            android:id="@+id/forgotPass"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/custom_button2"
+            android:text="Mot de passe oublié?"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"></Button>
+
+        <Button
+            android:id="@+id/Ok"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/custom_button"
+            android:onClick="goToChoiceScreen"
+            android:text="GO"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/ProgressBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+     <ImageView
+        android:id="@+id/image"
+        android:layout_width="233dp"
+        android:layout_height="145dp"
+        android:layout_below="@id/linear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/charity" />
+
+    <!--
+        <TextView
+            android:id="@+id/creditsLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="15dp"
+            android:autoLink="web"
+            android:text="\@Credits : https://cutt.ly/Mt6h0my "
+            android:textSize="20dp" />
+    -->
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

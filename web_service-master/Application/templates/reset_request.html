@@ -1,0 +1,64 @@
+<!--{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}
+User Register
+{% endblock %}
+
+{% block styles %}
+-->
+    {% assets "login_view_css" %}
+    <link href="{{ ASSET_URL }}" rel="stylesheet">
+    {% endassets %}
+
+<style>
+body {
+    background-image: url({{ url_for(".static", filename="images/PSH3.jpg")}});
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    }
+    .pasOpaque{
+    opacity : 1;
+}
+
+</style>
+<!--{% endblock %}
+
+{% block content %}-->
+
+<body>
+
+<div class="container-fluid" style="height:15%">
+</div>
+
+
+<div class=container style="width : 40em;margin:auto">
+    <div class="card text-white mb-3 border-0" style="opacity:0.97 " >
+      <div class="card-header" style=" background-color : #303030">
+        <h2>Réinitialisation de mot de passe</h2>
+      </div>
+      <div class="card-body" style ="background-color : #303030">
+        <div class="container">
+          <br>
+          <br>
+          <br>
+          <form class="form-signin" method="POST" action="/request_reset">
+            {{ form.hidden_tag() }}
+            {{ wtf.form_field(form.email) }}
+            <br>
+            <br>
+            <br>
+            <button class="btn btn-lg btn-light btn-block" type="submit"> Envoyer  </button>
+          </form>
+
+        </div>
+  </div>
+</div>
+
+</div>
+</body>
+ <!-- /container -->
+
+{% endblock %}

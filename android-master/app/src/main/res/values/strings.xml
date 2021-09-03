@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HeartCare</string>
+    <string name="action_settings">Settings</string>
+    <string name="adresse_mail">Adresse mail</string>
+    <string name="mdp">Mot de passe</string>
+    <string name="identifiez_vous">Identifiez vous!</string>
+    <string name="title_activity_load">load</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_choice_screen">choice_screen</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bluetooth">bluetooth</string>
+    <string name="error_bluetooth_not_supported">erreure ble not supp</string>
+    <string name="unknown_device">Unknow Device</string>
+</resources>

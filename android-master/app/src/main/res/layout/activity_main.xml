@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFEEE">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/identifiez_vous"
+        android:textStyle="bold"
+        android:textColor="#E50707"
+        android:layout_marginTop="150sp"
+        android:textSize="30dp"
+        ></TextView>
+    <EditText
+        android:layout_below="@id/txt"
+        android:id="@+id/identifiant"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adresse_mail"
+        android:inputType="textEmailAddress"
+        android:textSize="25sp"
+    ></EditText>
+
+    <EditText
+        android:id="@+id/mdp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/identifiant"
+        android:hint="@string/mdp"
+        android:inputType="textPassword"
+        android:textSize="25sp"
+        ></EditText>
+    <Button
+        android:id="@+id/login"
+        android:layout_below="@id/mdp"
+        android:text="Se connecter"
+        android:textAllCaps="false"
+
+        android:onClick="goToChoiceScreen"
+        android:background="@drawable/custom_button2"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+
+
+        />
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="233dp"
+        android:layout_height="145dp"
+        android:layout_below="@id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/charity" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ProgressBar"
+        android:text="Pour tout mot de passe oublié : veuillez contacter votre médecin traitant."/>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

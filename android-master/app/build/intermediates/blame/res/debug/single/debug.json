@@ -1,0 +1,286 @@
+[
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mon_icone_background.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\mon_icone_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_mon_icone.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-anydpi-v26\\mon_icone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_mon_icone_foreground.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-xxhdpi\\mon_icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_mon_icone_foreground.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-mdpi\\mon_icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_password.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\layout\\activity_new_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_mon_icone_background.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\mon_icone_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_mon_icone_foreground.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-xxxhdpi\\mon_icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_button.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable\\custom_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_mon_icone_round.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-xxxhdpi\\mon_icone_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_av.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable\\av.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_mon_icone_round.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-hdpi\\mon_icone_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_charity.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable\\charity.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_button2.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable\\custom_button2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_mon_icone.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-xxhdpi\\mon_icone.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_mon_icone_background.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\mon_icone_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tensiometer.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable\\tensiometer.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_customborder.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable\\customborder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_mon_icone_background.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\mon_icone_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_mon_icone_round.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-mdpi\\mon_icone_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_mon_icone_background.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\mon_icone_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_mon_icone_foreground.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-xhdpi\\mon_icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_device_adapter_view.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\layout\\device_adapter_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_mon_icone.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-xxxhdpi\\mon_icone.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clipboard.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable\\clipboard.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_mon_icone_background.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\mon_icone_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_mon_icone.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-mdpi\\mon_icone.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_mon_icone_round.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-anydpi-v26\\mon_icone_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_mon_icone.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-hdpi\\mon_icone.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_mon_icone_round.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-xhdpi\\mon_icone_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_upload.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable\\upload.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bluetooth.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable\\bluetooth.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_heartcare.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable\\heartcare.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_avc.jpg.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable\\avc.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home_page.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\layout\\activity_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chart1.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\layout\\activity_chart1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_mon_icone_background.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\mon_icone_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_choice_screen.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\layout\\content_choice_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calendarggl.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable\\calendarggl.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_choice_screen.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\layout\\activity_choice_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_mon_icone_round.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-xxhdpi\\mon_icone_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fullscreen.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\layout\\activity_fullscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clock.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable\\clock.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_mon_icone_foreground.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-hdpi\\mon_icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_heartbeat.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable\\heartbeat.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_listitem_device.xml.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\layout\\listitem_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calendar.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\drawable\\calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_mon_icone.png.flat",
+        "source": "C:\\Users\\Acer\\AndroidStudioProjects\\HeartCare\\app\\src\\main\\res\\mipmap-xhdpi\\mon_icone.png"
+    }
+]

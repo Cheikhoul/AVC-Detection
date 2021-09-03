@@ -1,0 +1,149 @@
+{% extends "bootstrap/base.html"  %}
+
+{% block head %}
+    <meta charset="utf-8">
+
+    {% assets "doctors_view_css" %}
+     <link href="{{ ASSET_URL }}" rel="stylesheet">
+    {% endassets %}
+
+    {% assets "doctors_view_js" %}
+    <script type="text/javascript" src="{{ASSET_URL}}"></script>
+    {% endassets %}
+    <style>
+      .erreurFormat{
+        display:none;
+         color:#FF0000 ;
+         font-size:0.9em
+      }
+      body {
+        background-color: #CCC;
+      }
+    </style>
+{% endblock %}
+
+{% block content %}
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" style="font-size: 2em ; text-decoration:none " href="">Bienvenue Dr. {{ name }}</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto ">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for("register_patient") }}">Ajouter un patient</a>
+          </li>
+        </ul>
+        <span class="navbar-nav ">
+          <a class="nav-link" href="{{ url_for('logout') }}">Déconnexion</a>
+        </span>
+      </div>
+    </nav>
+    <div class="container-fluid" style="background-color: #04B4AE">
+      <div class="container" style="padding-top:0 ; padding-bottom:3em">
+          <p  id="corbeille", dragover="function(e){e.preventdefault();}" drop="supprimerPatient()" style="text-align:center; font-size:2em ; visibility : hidden"><i class="fa fa-trash-o fa-3x" aria-hidden="true"></i></p>
+         <script type="text/javascript">
+           deleteChosen()
+         </script>
+        <div class="card-deck">
+
+          <!--Premiere carte-->
+          <div class="card bg-light mb-3">
+            <div class="card-header">Choisissez l'intervalle de temps et le type de données
+            </div>
+            <div class="card-body">
+              <form class="form-horizontal col-lg-12">
+
+                <p>Saisissez le jour et l'heure de début</p>
+                <div class="row">
+                  <label for="text" class="col-lg-2 control-label">Du </label>
+                  <div class="col-lg-4">
+                      <label for="dateDebut"></label><input type="text" class="form-control" id="dateDebut" onkeyup="completerDate('dateDebut')" placeholder="AAAA/MM/JJ">
+                    <p id="dateDebutMauvaisFormat" class="erreurFormat">La date ne respecte pas le format demandé</p>
+                  </div>
+                  <label for="text" class="col-lg-1 control-label"> à </label>
+                  <div class="col-lg-4">
+                      <label for="heureDebut"></label><input type="text" class="form-control" id="heureDebut" onkeyup="completerHeure('heureDebut')" placeholder="HH:Min">
+                    <p id="heureDebutMauvaisFormat" class="erreurFormat">L'heure ne respecte pas le format demandé</p>
+                  </div>
+                </div>
+                <br>
+                <br>
+                <p>Saisissez le jour et l'heure de fin</p>
+                <div class="row">
+                  <label for="text" class="col-lg-2 control-label">Au </label>
+                  <div class="col-lg-4">
+                      <label for="dateFin"></label><input type="text" class="form-control" id="dateFin" onkeyup="completerDate('dateFin')" placeholder="AAAA/MM/JJ">
+                    <p id="dateFinMauvaisFormat" class="erreurFormat">La date ne respecte pas le format demandé</p>
+                  </div>
+                  <label for="text" class="col-lg-1 control-label"> à </label>
+                  <div class="col-lg-4">
+                      <label for="heureFin"></label><input type="text" class="form-control" id="heureFin" onkeyup="completerHeure('heureFin')" placeholder="HH:Min">
+                    <p id="heureFinMauvaisFormat" class="erreurFormat">L'heure ne respecte pas le format demandé</p>
+                  </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="row">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" id="tensionArterielle">Afficher la courbe de tension artérielle
+                      <br>
+                      <br>
+                      <input type="checkbox" id="frequenceCardiaque">Afficher la courbe de fréquence cardiaque
+                    </label>
+                    <script type="text/javascript">
+                        defaultUncheck();
+                    </script>
+                      <p id="pasDeCourbe" class="erreurFormat">Veuillez sélectionner au moins un type de courbe</p>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!--Deuxieme carte-->
+          <div class="card bg-light mb-3" >
+            <div class="card-header">Selectionnez un patient</div>
+            <div class="card-body" style="height:12em ; overflow:auto">
+              <p id="selecPatient" class="erreurFormat">Veuillez sélectionner un patient</p>
+              <table class="table table-bordered table-striped table-condensed ">
+                <caption>
+
+                </caption>
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Patient</th>
+                  </tr>
+                </thead>
+                <tbody id="table">
+              </table>
+            </div>
+          </div>
+        </div>
+        <script>
+            ajouterPatients({{ patients|tojson }});
+        </script>
+        <button type="button" class="btn-lg btn-secondary" onClick=" getDonnees()" style="display:block; margin:auto">
+            Tracer la courbe</button>
+      </div>
+    </div>
+
+    <div id="graphic" class="container-fluid" style="background-color:#CCC ; padding:10em; display: none">
+        <canvas id="ChartFrequency" width="400" height="100"></canvas>
+        <canvas id="ChartPressure" width="400" height="100"></canvas>
+    </div>
+   {% endblock %}
+{% block scripts %}
+    <script src="{{bootstrap_find_resource('jquery.js', cdn='jquery')}}" defer></script>
+      <script type="text/javascript" src="{{ url_for('.static', filename='js/mychart.js') }}" ></script>
+    <script src="{{bootstrap_find_resource('js/bootstrap.js', cdn='bootstrap')}}" defer></script>
+ {%endblock %}
+
+
